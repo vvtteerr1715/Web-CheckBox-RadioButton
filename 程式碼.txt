@@ -16,7 +16,7 @@ public partial class _Default : System.Web.UI.Page
     {
         double ttoal = 0;
 
-        double tt1 = Convert.ToDouble(T1.Text);
+        double tt1 = Convert.ToDouble(T1.SelectedValue);
         double tt2 = Convert.ToDouble(T2.Text);
         double tt3 = Convert.ToDouble(T3.Text);
         double aa1 = Convert.ToDouble(a1.Text);
